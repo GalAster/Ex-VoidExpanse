@@ -3,4 +3,4 @@
 content/* linguist-generated=true
 # make things fun, lol
 *.txt linguist-language=css
-*.xml linguist-language=html
+*.xml linguist-language=ts

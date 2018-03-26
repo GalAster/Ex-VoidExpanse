@@ -1,0 +1,2 @@
+﻿header.title:             武装货运舰
+header.description:       Every good miner and trader knows the best product is the one you can claim came from farther away. They also know that far is dangerous. In an effort towards economic growth and to save money on escorts the Order used whatever surplus they they could spare from the military to fortify a handful of cargo ships for deep space expeditions. Structural reinforcement, upgraded weapons and on-board logistics, and a generous storage area all make this ship a cut above it's predecessor. Still turns like a brick, though.
