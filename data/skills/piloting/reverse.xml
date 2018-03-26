@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>reverse</id>
+		<title>Reverse</title>
+		<description>Moving in reverse and bringing hell with all your weapons. What could be better?</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/reverse.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>combat_movement</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_reverse_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.07</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

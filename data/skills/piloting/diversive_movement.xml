@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>diversive_movement</id>
+		<title>Diversive movement</title>
+		<description>Moving your ship at borderline overload speed makes targeting it more difficult.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/diversive_movement.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>thrusters_vectoring</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_max_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>1</effect_per_level>
+				<effect_per_level>1</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>radar_targeting_defense_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

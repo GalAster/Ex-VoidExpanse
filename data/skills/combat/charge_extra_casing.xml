@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>charge_extra_casing</id>
+		<title>Charge extra casing</title>
+		<description>Adding an additional casing with a reflective surface adds even more protection to deployed mines protecting them from enemy fire.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/charge_extra_casing.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>2</page>
+		<max_level>3</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>charge_shielding</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_structure_mine_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>50</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

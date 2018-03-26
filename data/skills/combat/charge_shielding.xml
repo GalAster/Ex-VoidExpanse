@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>charge_shielding</id>
+		<title>Charge shielding</title>
+		<description>Replacing the casing with a new, more durable one protects the mines from being destroyed by enemy fire.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/charge_shielding.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>heavy_mine_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_structure_mine_weapons_instancepercent</effect_type>
+				<effect_base>10</effect_base>
+				<effect_per_level>30</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

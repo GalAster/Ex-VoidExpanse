@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>gentleman</id>
+		<title>Gentleman</title>
+		<description>You are a man of your word. Well, most of the time anyway. As a result people are happy to pay you more for your services.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/gentleman.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>5</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>persuade</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>quest_reward_money_special</effect_type>
+				<effect_base>0.05</effect_base>
+				<effect_per_level>0.15</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>quest_reward_exp_special</effect_type>
+				<effect_base>0.05</effect_base>
+				<effect_per_level>0.15</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>energy_focusing</id>
+		<title>Energy focusing</title>
+		<description>Focusing energy allows for increased maximum range of fire for energy based weapons.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/energy_focusing.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>light_direct_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_max_range_energy_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

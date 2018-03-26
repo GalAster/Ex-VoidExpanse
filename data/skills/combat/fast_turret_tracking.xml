@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>fast_turret_tracking</id>
+		<title>Fast turret tracking</title>
+		<description>Not a surprise that standard tracking mechanism on pretty much all of the ships can be improved with a good whack and some lube. You are able to adjust all your tracking hardpoints to improve their characteristics.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/fast_turret_tracking.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>light_direct_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>tracking_speed_energy_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>tracking_speed_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>tracking_angle_energy_weapons_instancepercent</effect_type>
+				<effect_base>0.5</effect_base>
+				<effect_per_level>0.5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>tracking_angle_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>0.5</effect_base>
+				<effect_per_level>0.5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generator_efficiency</id>
+		<title>Generator efficiency</title>
+		<description>You are able to reconfigure some generator adjustment routines to squeeze extra output compared to standard settings.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/generator_efficiency.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>15</level>
+			<skill_id>fuel_compression</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_production_generator_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>fuel_consumption_generator_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

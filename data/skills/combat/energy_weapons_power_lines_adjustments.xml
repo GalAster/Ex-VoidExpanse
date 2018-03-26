@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>energy_weapons_power_lines_adjustments</id>
+		<title>Energy weapons power lines adjustments</title>
+		<description>Improvements to power lines leading to energy weapons increases their efficiency thus decreasing the amount of energy consumed to recharge them.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/energy_weapons_power_lines_adjustments.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>energy_weapons_capacitor_tuning</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_consumption_energy_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

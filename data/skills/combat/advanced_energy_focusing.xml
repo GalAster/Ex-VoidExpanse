@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>advanced_energy_focusing</id>
+		<title>Advanced energy focusing</title>
+		<description>Further improvement of efficiency in focusing energy allows for additional increases in effective range of fire before the damage is decreased beyond the range threshold thus significantly increasing their effective damage at distance.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/advanced_energy_focusing.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>energy_focusing</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_range_energy_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

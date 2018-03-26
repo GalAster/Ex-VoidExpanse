@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>electronic_counter_measures_control</id>
+		<title>Electronic counter measures control</title>
+		<description>By using ECM in a smart way, you are able to better protect your ship from being easily targeted by enemies.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/electronic_counter_measures_control.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>target_locking</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>radar_targeting_defense_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>primary_consumables</id>
+		<title>Primary consumables</title>
+		<description>Your skill in using primary consumable types can mean life and death in battle.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/primary_consumables.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>engineering</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>consumables_shield_restore_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>consumables_structure_repair_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

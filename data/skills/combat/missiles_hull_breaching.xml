@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>missiles_hull_breaching</id>
+		<title>Missile hull breaching</title>
+		<description>Using the missile's targeting computer, you are able to make them hit the same spot twice thus causing massive internal damage to the enemy ship.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/missiles_hull_breaching.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>2</page>
+		<max_level>3</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>missiles_critical_hits</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_damage_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

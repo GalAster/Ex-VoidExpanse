@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>energy_weapons_direct_power_injection</id>
+		<title>Energy weapons direct power injection</title>
+		<description>By directly injecting power from the main generator to energy weapons ignoring their capacitors, it's possible to increase their raw damage output.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/energy_weapons_direct_power_injection.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>energy_weapons_power_injection</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_damage_energy_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

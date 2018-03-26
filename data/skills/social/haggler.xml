@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>haggler</id>
+		<title>Haggler</title>
+		<description>Station staff will give you any discounts just to get rid of your nagging face.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/haggler.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>5</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>silver_tongue</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>refuel_price_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.05</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>repair_price_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.02</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

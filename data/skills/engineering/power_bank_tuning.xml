@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>power_bank_tuning</id>
+		<title>Power bank tuning</title>
+		<description>Power banks of the ship aren't just simple batteries, but complex devices with many advanced parts. By adjusting many of their properties, you are able to increase their maximum energy storage potential.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/power_bank_tuning.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>3</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>power_grid_management</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

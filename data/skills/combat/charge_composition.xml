@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>charge_composition</id>
+		<title>Charge composition</title>
+		<description>It's a dangerous thing to do, but by disassembling the mines and altering their charge composition, it's possible to increase their detonation power.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/charge_composition.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>medium_mine_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_damage_mine_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

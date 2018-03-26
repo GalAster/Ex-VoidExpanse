@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>evading</id>
+		<title>Evading</title>
+		<description>Improves your basic evasion jump to better avoid enemy attacks. Especially useful to avoid missiles. To activate the evasion jump press forward twice.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/evading.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>15</level>
+			<skill_id>diversive_movement</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>warp_distance_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>warp_recharge_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>energy_consumption_warp_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

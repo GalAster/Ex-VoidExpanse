@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>warp_recharge</id>
+		<title>Jump recharge</title>
+		<description>Improves your jump recharge speed.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/warp_recharge.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>1</page>
+		<max_level>2</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>evading</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>warp_recharge_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>25</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>energy_consumption_warp_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-25</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

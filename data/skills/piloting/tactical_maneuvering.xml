@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>tactical_maneuvering</id>
+		<title>Tactical maneuvering</title>
+		<description>You are the best pilot when it comes to slow and less maneuverable ships at this point. Make their drawbacks be your benefits.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/tactical_maneuvering.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>1</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>20</level>
+			<skill_id>reverse</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_strafe_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.05</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>speed_reverse_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.05</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>deceleration_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.1</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>armor_value</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

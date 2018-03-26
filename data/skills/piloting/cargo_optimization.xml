@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>cargo_optimization</id>
+		<title>Cargo optimization</title>
+		<description>Loading your ship with cargo containers isn't as simple as it may sound at first. But you are a pro at it and are able to pack much more cargo than normal.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/cargo_optimization.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>transport_operations</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>cargo_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>10</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>missile_flight_control</id>
+		<title>Missile flight control</title>
+		<description>Adjustments to missile gyros allows for a steadier flight thus using less fuel for corrections which results in improved range.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/missile_flight_control.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>heavy_missile_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_range_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>projectile_max_range_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

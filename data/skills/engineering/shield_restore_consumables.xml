@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>shield_restore_consumables</id>
+		<title>Shield restore consumables</title>
+		<description>You are able to extract much more effect out of shield boosting consumables of any grade.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/shield_restore_consumables.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>military_consumables</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>consumables_shield_restore_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

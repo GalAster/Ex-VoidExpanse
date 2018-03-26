@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>ore_reprocessing</id>
+		<title>Ore reprocessing</title>
+		<description>Ore reprocessing significantly increases mining yield.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/ore_reprocessing.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>4</page>
+		<max_level>20</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>astrogeology</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>mining_amount_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

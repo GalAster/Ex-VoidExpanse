@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generic_quest_ore_delivery</id>
+		<title>Ore supply job</title>
+		<enabled>1</enabled>
+	</header>
+
+	<data>
+		<category>quests</category>
+
+		<variables>
+			<var>destinationBase</var>
+			<var>destinationSystem</var>
+			<var>destinationType</var>
+			<var>destinationDesc</var>
+			<var>destinationExp</var>
+			<var>destinationGold</var>
+		</variables>
+
+		<flags>
+		</flags>
+
+		<singleplayer>1</singleplayer>
+		<multiplayer>1</multiplayer>
+
+	</data>
+</root>

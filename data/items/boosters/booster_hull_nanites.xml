@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>booster_hull_nanites</id>
+		<title>Hull Enhancing Nanites</title>
+		<description>Quantum-level structural integrity reinforcement.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/boosters/booster_reinforced_bulkheads.png</icon>
+	</gfx>
+
+	<data>
+		<type>10</type>
+		
+		<shops>
+			<shops_level>10</shops_level>
+			<faction_filter></faction_filter>
+			<faction_only>0</faction_only>
+			<faction_reputation>0</faction_reputation>
+			<price>3000</price>
+		</shops>
+
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<effects>
+			</effects>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>structure_value</effect_type>
+				<effect_base>50000</effect_base>
+			</effect>
+			<effect>
+				<effect_type>cargo_capacity_value</effect_type>
+				<effect_base>200</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>

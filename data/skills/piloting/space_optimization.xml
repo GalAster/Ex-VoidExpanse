@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>space_optimization</id>
+		<title>Space optimization</title>
+		<description>You are able to store more useful gear and items in your ship storage areas.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/space_optimization.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>1</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>cargo_optimization</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>inventory_capacity_value</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

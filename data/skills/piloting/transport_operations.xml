@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>transport_operations</id>
+		<title>Transport operations</title>
+		<description>You are able to better prepare for big trade runs increasing your overall cargo and fuel capacity.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/transport_operations.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>advanced_cruising</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>cargo_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>fuel_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

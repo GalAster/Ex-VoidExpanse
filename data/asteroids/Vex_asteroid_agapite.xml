@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>ssendam_asteroid_agapite</id>
+		<title>Agapite asteroid</title>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<model>asteroids/asteroid_01.obj</model>
+		<textures>
+			<diffuse>asteroids/agapite/dif_256.jpg</diffuse>
+			<specular>asteroids/agapite/spec_256.jpg</specular>
+			<normal>asteroids/agapite/nrm_256.jpg</normal>
+		</textures>
+		<texture_mining_particle>asteroids/agapite/mining_particle.png</texture_mining_particle>
+	</gfx>
+	<sfx>
+	</sfx>
+	<data>
+		<scale_range>0.75;1.25</scale_range>
+		<rotation_range>-1.0;1.0</rotation_range>
+		<physics>
+			<mass>2000</mass>
+			<shapes>
+				<shape>
+					<type>polygon</type>
+					<offset>0;0</offset>
+					<angle>0</angle>
+					<points>-1.062;-0.1550 -0.751;0.6356 0.808;0.4192 1.169;0.0316 0.835;-0.4702 -0.781;-0.5007</points>
+				</shape>
+			</shapes>
+		</physics>
+		<type>2</type>
+		<difficulty>1250</difficulty>
+		<contents>
+			<resource>
+				<id>ssendam_ore_agapite</id>
+				<quantity>250;500</quantity>
+				<extraction>8</extraction>
+			</resource>
+		</contents>
+	</data>
+</root>

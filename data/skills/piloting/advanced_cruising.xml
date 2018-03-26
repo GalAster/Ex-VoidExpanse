@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>advanced_cruising</id>
+		<title>Advanced cruising</title>
+		<description>You are a moderately skilled trader by this point.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/advanced_cruising.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>10</level>
+			<skill_id>cruising</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_max_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>1</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>cargo_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>speed_cruising_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.02</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

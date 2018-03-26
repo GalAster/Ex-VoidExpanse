@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>silver_tongue</id>
+		<title>Silver tongue</title>
+		<description>You are a master of speech.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/silver_tongue.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>5</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id></skill_id>
+			<skill_level>0</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>refuel_price_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.04</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>repair_price_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.01</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>trade_margin_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.02</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

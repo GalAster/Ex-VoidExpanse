@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>shield_capacitor_management</id>
+		<title>Shield capacitor management</title>
+		<description>By switching several shield capacitor banks, you are able to effectively increase the maximum capacity of your shield.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/shield_capacitor_management.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>3</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>shield_management</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>shield_charge_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

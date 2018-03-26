@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>hull_repair_consumables</id>
+		<title>Hull repair consumables</title>
+		<description>Hull integrity is a top priority, and boosting it with repair consumables is a good idea.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/hull_repair_consumables.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>6</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>military_consumables</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>consumables_structure_repair_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

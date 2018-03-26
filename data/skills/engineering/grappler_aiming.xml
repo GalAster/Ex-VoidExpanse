@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>grappler_aiming</id>
+		<title>Grappler aiming</title>
+		<description>Usually aiming the grappler beam is as simple as pushing one button, but being a master at it allows you to pinpoint targets at higher range.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/grappler_aiming.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>3</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>engineering</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>grappler_range_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>15</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>grappler_pickup_range_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

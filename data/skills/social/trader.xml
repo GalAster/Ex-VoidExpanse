@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>trader</id>
+		<title>Trader</title>
+		<description>You previous career as a haggler made you a good deal proficient at making people inclined to agree to your terms.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/trader.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>5</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>10</level>
+			<skill_id>silver_tongue</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>trade_margin_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-0.05</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>shield_frequency_switching</id>
+		<title>Shield frequency switching</title>
+		<description>It's common knowledge that smart frequency switching can significantly increase the effects of shield protection, but many pilots ignore this obvious adjustment. Note: This skill only has an effect on "compensation" type shields, as "deflection" type shields already have their deflection value at 100%.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/shield_frequency_switching.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>3</page>
+		<max_level>3</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>shield_capacitor_management</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>shield_deflection_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>15</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

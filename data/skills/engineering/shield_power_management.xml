@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>shield_power_management</id>
+		<title>Shield power management</title>
+		<description>Using shields requires careful power management at all times. Otherwise, your ship might be left with no energy at all. With this skill you are able to better manage energy requirements of your ship's shield.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/shield_power_management.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>shield_configuration_tuning</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_consumption_shield_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

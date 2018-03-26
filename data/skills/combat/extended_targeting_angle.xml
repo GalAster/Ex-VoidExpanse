@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>extended_targeting_angle</id>
+		<title>Extended targeting angle</title>
+		<description>After some time with a file to remove the protection margin on all the hardpoints of your ship, your turrets can now turn at a much wider angle.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/extended_targeting_angle.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>fast_turret_tracking</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>tracking_angle_energy_weapons_instancepercent</effect_type>
+				<effect_base>1</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>tracking_angle_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>1</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

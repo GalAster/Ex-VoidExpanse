@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>advanced_ordnance_organization</id>
+		<title>Advanced ordnance organization</title>
+		<description>By fitting an extra ammo container in addition to the standard one, you are able to even further increase the ammo capacity of ballistic weapons.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/advanced_ordnance_organization.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>2</page>
+		<max_level>3</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>ordnance_organization</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>max_ammo_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>10</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

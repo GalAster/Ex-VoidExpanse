@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>thrusters_tuning</id>
+		<title>Thrusters tuning</title>
+		<description>Engines are probably the most important part of any ship. Being able to fine tune them is a very important skill indeed.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/thrusters_tuning.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>1</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_max_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>acceleration_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>2</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

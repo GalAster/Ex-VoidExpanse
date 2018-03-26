@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>light_cruisers</id>
+		<title>Light cruisers</title>
+		<description>Allows you to pilot light cruisers.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/light_cruisers.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>15</cost>
+		<page>1</page>
+		<max_level>1</max_level>
+		<important>1</important>
+
+		<requirements>
+			<level>30</level>
+			<skill_id>heavy_frigates</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>piloting_light_cruisers_ability</effect_type>
+				<effect_base>1</effect_base>
+				<effect_per_level>0</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

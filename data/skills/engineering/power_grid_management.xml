@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>power_grid_management</id>
+		<title>Power grid management</title>
+		<description>Smart energy distribution across the ship decreases unnecessary energy losses thus effectively making more energy available for your needs.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/power_grid_management.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>generator_efficiency</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

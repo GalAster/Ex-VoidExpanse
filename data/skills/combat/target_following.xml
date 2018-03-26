@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>target_following</id>
+		<title>Target following</title>
+		<description>By anticipating the next move of the enemy, you are able to effectively increase the tracking capabilities of your rotary-mounted ballistic weapons.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/target_following.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>medium_ballistic_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>tracking_speed_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>1</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

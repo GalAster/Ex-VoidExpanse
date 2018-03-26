@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>energy_recharge_consumables</id>
+		<title>Energy recharge consumables</title>
+		<description>Ability to use energy recharging consumables more effectively.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/energy_recharge_consumables.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>power_grid_management</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>consumables_energy_recharge_percent</effect_type>
+				<effect_base>5</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

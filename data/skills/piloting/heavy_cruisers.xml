@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>heavy_cruisers</id>
+		<title>Heavy cruisers</title>
+		<description>Allows you to pilot heavy cruisers.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/heavy_cruisers.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>20</cost>
+		<page>1</page>
+		<max_level>1</max_level>
+		<important>1</important>
+
+		<requirements>
+			<level>45</level>
+			<skill_id>light_cruisers</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>piloting_heavy_cruisers_ability</effect_type>
+				<effect_base>1</effect_base>
+				<effect_per_level>0</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

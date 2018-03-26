@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>advanced_strafing</id>
+		<title>Advanced strafing</title>
+		<description>The ability to effectively dodge projectiles is a good skill to have if you intend to stay alive.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/advanced_strafing.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>1</page>
+		<max_level>2</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>combat_movement</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>speed_strafe_special</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>0.25</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

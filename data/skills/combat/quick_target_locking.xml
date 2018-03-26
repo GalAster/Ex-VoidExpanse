@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>quick_target_locking</id>
+		<title>Quick target locking</title>
+		<description>You are a real pro at holding your targets steady, even further reducing the time it takes to lock on a target.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/quick_target_locking.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>10</cost>
+		<page>2</page>
+		<max_level>3</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>target_locking</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>radar_targeting_speed_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

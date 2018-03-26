@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>explosives_capacity</id>
+		<title>Explosives capacity</title>
+		<description>All explosive ammo is stored in special containers protected from outside effects to exclude accidental detonation. You are able to modify these containers to increase maximum explosives capacity of all missile and mine weapons.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/explosives_capacity.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>2</page>
+		<max_level>15</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>light_explosive_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>max_ammo_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>max_ammo_mine_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

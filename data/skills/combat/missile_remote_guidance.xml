@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>missile_remote_guidance</id>
+		<title>Missile remote guidance</title>
+		<description>Guiding a missile manually until it hits its target is not easy but it gives quite real benefits.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/missile_remote_guidance.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>medium_missile_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_speed_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>projectile_homing_missile_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

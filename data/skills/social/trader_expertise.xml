@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>trader_expertise</id>
+		<title>Trading expertise</title>
+		<description>Hm, making money is your main joy in life? Well, being a proficient trader could also help you learn and discover new things always having a chance to talk with other people of your trade.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/trader_expertise.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>5</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>trader</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>trading_experience_special</effect_type>
+				<effect_base>0.1</effect_base>
+				<effect_per_level>0.3</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

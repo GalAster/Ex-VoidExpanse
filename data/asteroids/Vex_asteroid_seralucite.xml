@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>ssendam_asteroid_seralucite</id>
+		<title>Seralucite asteroid</title>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<model>asteroids/asteroid_01.obj</model>
+		<textures>
+			<diffuse>asteroids/seralucite/dif_256.jpg</diffuse>
+			<specular>asteroids/seralucite/spec_256.jpg</specular>
+			<normal>asteroids/seralucite/nrm_256.jpg</normal>
+		</textures>
+		<texture_mining_particle>asteroids/seralucite/mining_particle.png</texture_mining_particle>
+	</gfx>
+	<sfx>
+	</sfx>
+	<data>
+		<scale_range>0.75;1.25</scale_range>
+		<rotation_range>-1.0;1.0</rotation_range>
+		<physics>
+			<mass>2000</mass>
+			<shapes>
+				<shape>
+					<type>polygon</type>
+					<offset>0;0</offset>
+					<angle>0</angle>
+					<points>-0.616;-0.7749 -0.888;0.2402 -0.483;0.9103 0.841;0.5276 0.947;-0.106 0.239;-0.9819</points>
+				</shape>
+			</shapes>
+		</physics>
+		<type>1</type>
+		<difficulty>1250</difficulty>
+		<contents>
+			<resource>
+				<id>ore_seralucite</id>
+				<quantity>250;750</quantity>
+				<extraction>10</extraction>
+			</resource>
+		</contents>
+	</data>
+</root>

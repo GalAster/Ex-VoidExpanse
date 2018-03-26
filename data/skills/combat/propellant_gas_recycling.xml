@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>propellant_gas_recycling</id>
+		<title>Propellant gas recycling</title>
+		<description>By installing a very simple mod on your ballistic weapons, you are able to capture escaping propellant gas and generate some power from it, which is then used for the next shot, effectively reducing the energy requirements for ballistic weapons.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/propellant_gas_recycling.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>8</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>heavy_ballistic_weapons</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_consumption_ballistic_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-4</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

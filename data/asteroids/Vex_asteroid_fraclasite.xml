@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>ssendam_asteroid_fraclasite</id>
+		<title>Fraclasite asteroid</title>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<model>asteroids/asteroid_01.obj</model>
+		<textures>
+			<diffuse>asteroids/fraclasite/dif_256.jpg</diffuse>
+			<specular>asteroids/fraclasite/spec_256.jpg</specular>
+			<normal>asteroids/fraclasite/nrm_256.jpg</normal>
+		</textures>
+		<texture_mining_particle>asteroids/fraclasite/mining_particle.png</texture_mining_particle>
+	</gfx>
+	<sfx>
+	</sfx>
+	<data>
+		<scale_range>0.75;1.25</scale_range>
+		<rotation_range>-1.0;1.0</rotation_range>
+		<physics>
+			<mass>2000</mass>
+			<shapes>
+				<shape>
+					<type>polygon</type>
+					<offset>0;0</offset>
+					<angle>0</angle>
+					<points>-0.51;-0.6676 -0.8;0.2304 0.150;0.89 0.625;0.3261 0.68;-0.15 0.25;-0.65 -0.06;-0.83</points>
+				</shape>
+			</shapes>
+		</physics>
+		<type>1</type>
+		<difficulty>1000</difficulty>
+		<contents>
+			<resource>
+				<id>ore_fraclasite</id>
+				<quantity>500;1000</quantity>
+				<extraction>12</extraction>
+			</resource>
+		</contents>
+	</data>
+</root>

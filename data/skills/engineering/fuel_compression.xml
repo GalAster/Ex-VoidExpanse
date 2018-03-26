@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>fuel_compression</id>
+		<title>Fuel compression</title>
+		<description>Usually all modern fuel tanks have some safety margin built in. You are able to exploit that characteristic to effectively increase the maximum amount of fuel your ship can hold.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/fuel_compression.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>engineering</skill_id>
+			<skill_level>5</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>fuel_capacity_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

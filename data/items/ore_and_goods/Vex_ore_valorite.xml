@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>Vex_ore_valorite</id>
+		<title>Valorite ore</title>
+		<description>todo</description>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<icon>items/ore_and_goods/Vex_ore_valorite.png</icon>
+	</gfx>
+	<data>
+		<type>200</type>
+		<shops>
+			<shops_level>1</shops_level>
+			<faction_filter></faction_filter>
+			<faction_only>0</faction_only>
+			<faction_reputation>0</faction_reputation>
+			<price>60</price>
+		</shops>
+		<flags>
+			<flag>mineable</flag>
+		</flags>
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+		</upgrades>
+		<requirements>
+		</requirements>
+		<effects>
+		</effects>
+		<item_data>
+			<base_quantity_production>200</base_quantity_production>
+			<base_quantity_neutral>100</base_quantity_neutral>
+			<base_quantity_consumption>30</base_quantity_consumption>
+			<production_chance>0.2</production_chance>
+			<consumption_chance>0.35</consumption_chance>
+		</item_data>
+	</data>
+</root>

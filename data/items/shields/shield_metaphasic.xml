@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>shield_metaphasic</id>
+		<title>Metaphasic shield</title>
+		<description>Metaphasic, quantum phase shields. Unbeatable.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/shields/shield_dimensional.png</icon>
+	</gfx>
+
+	<data>
+		<type>6</type>
+		
+		<shops>
+			<shops_level>60</shops_level>
+			<faction_filter></faction_filter>
+			<faction_only>0</faction_only>
+			<faction_reputation>0</faction_reputation>
+			<price>29000</price>
+		</shops>
+
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>shield_charge_value</effect_type>
+				<effect_base>9990000</effect_base>
+			</effect>
+			<effect>
+				<effect_type>shield_regeneration_value</effect_type>
+				<effect_base>600000</effect_base>
+			</effect>
+			<effect>
+				<effect_type>shield_deflection_value</effect_type>
+				<effect_base>10</effect_base>
+			</effect>
+			<effect>
+				<effect_type>shield_reestablishment_value</effect_type>
+				<effect_base>50</effect_base>
+			</effect>
+			<effect>
+				<effect_type>shield_regeneration_delay_value</effect_type>
+				<effect_base>1</effect_base>
+			</effect>
+			<effect>
+				<effect_type>armor_value</effect_type>
+				<effect_base>3500</effect_base>
+			</effect>
+			<effect>
+				<effect_type>energy_consumption_shield_value</effect_type>
+				<effect_base>5</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>

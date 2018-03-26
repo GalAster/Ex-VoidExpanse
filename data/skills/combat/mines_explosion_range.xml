@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>mines_explosion_range</id>
+		<title>Mine explosion range</title>
+		<description>By modifying the mine casing, it is possible to increase the damage radius significantly.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/mines_explosion_range.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>2</page>
+		<max_level>5</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>charge_orientation</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>projectile_area_mine_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>25</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+			<effect>
+				<effect_type>projectile_max_area_mine_weapons_instancepercent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>25</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

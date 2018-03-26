@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generator_tuning</id>
+		<title>Generator tuning</title>
+		<description>Targeting settings of fuel injection into the reactor core specifically, you are able to slightly reduce the fuel consumption with no added drawbacks.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/generator_tuning.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>7</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>0</level>
+			<skill_id>generator_efficiency</skill_id>
+			<skill_level>3</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>fuel_consumption_generator_percent</effect_type>
+				<effect_base>0</effect_base>
+				<effect_per_level>-5</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>

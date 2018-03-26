@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>ssendam_asteroid_serizonite</id>
+		<title>Serizonite asteroid</title>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<model>asteroids/asteroid_01.obj</model>
+		<textures>
+			<diffuse>asteroids/serizonite/dif_256.jpg</diffuse>
+			<specular>asteroids/serizonite/spec_256.jpg</specular>
+			<normal>asteroids/serizonite/nrm_256.jpg</normal>
+		</textures>
+		<texture_mining_particle>asteroids/serizonite/mining_particle.png</texture_mining_particle>
+	</gfx>
+	<sfx>
+	</sfx>
+	<data>
+		<scale_range>0.75;1.25</scale_range>
+		<rotation_range>-1.0;1.0</rotation_range>
+		<physics>
+			<mass>2000</mass>
+			<shapes>
+				<shape>
+					<type>polygon</type>
+					<offset>0;0</offset>
+					<angle>0</angle>
+					<points>-0.685;-0.5603 -0.614;0.5901 -0.089;1.2094 0.533;1.1723 0.924;0.2355 0.612;-0.9615 0.088;-1.1815</points>
+				</shape>
+			</shapes>
+		</physics>
+		<type>1</type>
+		<difficulty>1500</difficulty>
+		<contents>
+			<resource>
+				<id>ore_serizonite</id>
+				<quantity>100;250</quantity>
+				<extraction>4</extraction>
+			</resource>
+		</contents>
+	</data>
+</root>

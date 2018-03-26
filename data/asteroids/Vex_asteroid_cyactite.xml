@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<header>
+		<id>ssendam_asteroid_cyactite</id>
+		<title>Cyactite asteroid</title>
+		<enabled>1</enabled>
+	</header>
+	<gfx>
+		<model>asteroids/asteroid_01.obj</model>
+		<textures>
+			<diffuse>asteroids/cyactite/dif_256.jpg</diffuse>
+			<specular>asteroids/cyactite/spec_256.jpg</specular>
+			<normal>asteroids/cyactite/nrm_256.jpg</normal>
+		</textures>
+		<texture_mining_particle>asteroids/cyactite/mining_particle.png</texture_mining_particle>
+	</gfx>
+	<sfx>
+	</sfx>
+	<data>
+		<scale_range>0.75;1.25</scale_range>
+		<rotation_range>-1.0;1.0</rotation_range>
+		<physics>
+			<mass>2000</mass>
+			<shapes>
+				<shape>
+					<type>polygon</type>
+					<offset>0;0</offset>
+					<angle>0</angle>
+					<points>-0.818;-0.4768 -0.8;0.2980 0.111;0.6756 0.918;0.2623 0.748;-0.6432 0.016;-0.8567</points>
+				</shape>
+			</shapes>
+		</physics>
+		<type>1</type>
+		<difficulty>1000</difficulty>
+		<contents>
+			<resource>
+				<id>ore_cyactite</id>
+				<quantity>750;1500</quantity>
+				<extraction>16</extraction>
+			</resource>
+		</contents>
+	</data>
+</root>

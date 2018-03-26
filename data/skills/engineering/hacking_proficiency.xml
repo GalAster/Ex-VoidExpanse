@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>hacking_proficiency</id>
+		<title>Hacking proficiency</title>
+		<description>Improves your proficiency at avoiding security risks during the hacking process greatly improving your chances to penetrate any security.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>skills/hacking_proficiency.jpg</icon>
+	</gfx>
+
+	<data>
+
+		<cost>5</cost>
+		<page>3</page>
+		<max_level>10</max_level>
+		<important>0</important>
+
+		<requirements>
+			<level>10</level>
+			<skill_id>advanced_hacking</skill_id>
+			<skill_level>1</skill_level>
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>hacking_proficiency_special</effect_type>
+				<effect_base>0.05</effect_base>
+				<effect_per_level>0.05</effect_per_level>
+				<effect_cap>0</effect_cap>
+			</effect>
+		</effects>
+
+	</data>
+</root>
