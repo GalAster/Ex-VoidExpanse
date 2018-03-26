@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>outpost_01</id>
+		<title>Outpost station</title>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<model>stations/outpost_01.obj</model>
+		<textures>
+			<diffuse>stations/outpost_01/dif_1024.jpg</diffuse>
+			<specular>stations/outpost_01/spec_1024.jpg</specular>
+			<normal>stations/outpost_01/nrm_1024.jpg</normal>
+			<illumination>stations/outpost_01/ilum_1024.jpg</illumination>
+		</textures>
+		<scale>1.6</scale>
+		<rotation>52.5</rotation>
+	</gfx>
+
+	<sfx>
+		<!-- none -->
+	</sfx>
+
+	<data>
+
+		<playlist>playlist_special_station_outpost</playlist>
+
+		<background_texture>stations/hangar_01.jpg</background_texture>
+
+		<sort>100</sort>
+
+		<stock_generation>
+			<!-- hulls -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>1</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- primary equipment -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>2</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>3</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>4</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>5</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>6</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>7</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>8</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- secondary equipment -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>9</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>10</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- weapons -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>11</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- consumables -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>101</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- objects -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>100</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+		</stock_generation>
+
+		<entrance>
+			<entry_available_areas>
+				<shape>
+					<type>box</type>
+					<offset>-4;0</offset>
+					<angle>0</angle>
+					<size>3.5;2</size>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>4;0</offset>
+					<angle>0</angle>
+					<size>3.5;2</size>
+				</shape>
+			</entry_available_areas>
+			<entry_start_areas>
+				  <shape>
+					<type>box</type>
+					<offset>2.35;0</offset>
+					<angle>0</angle>
+					<size>1.9;2.5</size>
+				  </shape>
+				  <shape>
+					<type>box</type>
+					<offset>-2.35;0</offset>
+					<angle>0</angle>
+					<size>1.9;2.5</size>
+				  </shape>
+			</entry_start_areas>
+
+			<undocking_points>
+				<point>5.7;0</point>
+				<point>-5.7;0</point>
+			</undocking_points>
+		</entrance>
+
+		<physics>
+			<mass>9001</mass>
+			<shapes>
+				<shape>
+					<type>circle</type>
+					<offset>-0.011;-1.958</offset>
+					<radius>3.091</radius>
+					<mass>1</mass>
+				</shape>
+				<shape>
+					<type>circle</type>
+					<offset>0.027;1.990</offset>
+					<radius>3.091</radius>
+					<mass>1</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>0.018;-1.435</offset>
+					<size>6.988;0.609</size>
+					<mass>1</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>-0.032;1.478</offset>
+					<size>6.988;0.609</size>
+					<mass>1</mass>
+				</shape>
+			</shapes>
+		</physics>
+	</data>
+</root>

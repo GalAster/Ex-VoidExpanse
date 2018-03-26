@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>science_01</id>
+		<title>Science station</title>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<model>stations/science_01.obj</model>
+		<textures>
+			<diffuse>stations/science_01/dif_2048.jpg</diffuse>
+			<specular>stations/science_01/spec_2048.jpg</specular>
+			<normal>stations/science_01/nrm_2048.jpg</normal>
+			<illumination>stations/science_01/ilum_1024.jpg</illumination>
+		</textures>
+		<scale>1.6</scale>
+		<rotation>232.5</rotation>
+	</gfx>
+
+	<sfx>
+		<!-- none -->
+	</sfx>
+
+	<data>
+
+		<playlist>playlist_special_station_science</playlist>
+
+		<background_texture>stations/hangar_01.jpg</background_texture>
+
+		<sort>300</sort>
+
+		<stock_generation>
+			<!-- hulls -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>1</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- primary equipment -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>2</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>3</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>4</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>5</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>6</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>7</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>8</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- secondary equipment -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>9</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+					<item>
+						<type>10</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- weapons -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>11</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- consumables -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>101</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+			<!-- objects -->
+			<group>
+				<min>50</min>
+				<max>50</max>
+				<items>
+					<item>
+						<type>100</type>
+						<min>50</min>
+						<max>50</max>
+					</item>
+				</items>
+			</group>
+		</stock_generation>
+
+		<entrance>
+			<entry_available_areas>
+				<shape>
+					<type>box</type>
+					<offset>3.200;0.000</offset>
+					<angle>0</angle>
+					<size>2.500;2.012</size>
+				</shape>
+			</entry_available_areas>
+			<entry_start_areas>
+				<shape>
+					<type>box</type>
+					<offset>1.25;0</offset>
+					<angle>0</angle>
+					<size>2.3;2.15</size>
+				</shape>
+			</entry_start_areas>
+
+			<undocking_points>
+				<point>4;0</point>
+			</undocking_points>
+		</entrance>
+
+		<physics>
+			<mass>9001</mass>
+			<shapes>
+				<shape>
+					<type>circle</type>
+					<offset>1.413;-3.744</offset>
+					<angle>0</angle>
+					<radius>1.55</radius>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>circle</type>
+					<offset>1.329;3.695</offset>
+					<angle>0</angle>
+					<radius>1.55</radius>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>circle</type>
+					<offset>-2.661;-0.002</offset>
+					<angle>0</angle>
+					<radius>1.55</radius>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>0.429;-0.009</offset>
+					<angle>0</angle>
+					<size>1.574;7.654</size>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>1.736;2.327</offset>
+					<angle>0</angle>
+					<size>1.971;1.381</size>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>1.754;-2.511</offset>
+					<angle>0</angle>
+					<size>1.971;1.765</size>
+					<mass>8</mass>
+				</shape>
+				<shape>
+					<type>box</type>
+					<offset>-1.183;0.015</offset>
+					<angle>0</angle>
+					<size>2.307;3.397</size>
+					<mass>8</mass>
+				</shape>
+			</shapes>
+		</physics>
+
+		<blinks>
+			<!-- left side -->
+			<blink>
+				<position_offset>1.460;-3.720;-3.377</position_offset>
+				<size>5</size>
+				<delay>0</delay>
+				<duration>0.75</duration>
+				<interval>1.5</interval>
+				<color>1;0;0;1</color>
+				<light_position_offset>0;0;0</light_position_offset>
+				<light_range>9</light_range>
+				<light_intensity>0.3</light_intensity>
+				<light_color>1;0.25;0.25;1</light_color>
+			</blink>
+
+			<!-- right side -->
+			<blink>
+				<position_offset>1.405;3.655;-3.377</position_offset>
+				<size>5</size>
+				<delay>0.5</delay>
+				<duration>0.75</duration>
+				<interval>1.5</interval>
+				<color>1;0;0;1</color>
+				<light_position_offset>0;0;0</light_position_offset>
+				<light_range>9</light_range>
+				<light_intensity>0.3</light_intensity>
+				<light_color>1;0.25;0.25;1</light_color>
+			</blink>
+
+			<!-- center -->
+			<blink>
+				<position_offset>-2.583;0.039;-3.377</position_offset>
+				<size>5</size>
+				<delay>1</delay>
+				<duration>0.75</duration>
+				<interval>1.5</interval>
+				<color>1;0;0;1</color>
+				<light_position_offset>0;0;0</light_position_offset>
+				<light_range>9</light_range>
+				<light_intensity>0.3</light_intensity>
+				<light_color>1;0.25;0.25;1</light_color>
+			</blink>
+		</blinks>
+	</data>
+</root>

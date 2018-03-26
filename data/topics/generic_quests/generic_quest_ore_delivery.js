@@ -1,10 +1,10 @@
 /*
- 
- Quest "ore delivery"
- 
- Available to anyone on any space station.
- 
- */
+
+Quest "ore delivery"
+
+Available to anyone on any space station.
+
+*/
 
 using(npc);
 using(console);
@@ -45,6 +45,9 @@ function OnDialogue()
 {
     var state = topic.GetState();
     var input = topic.GetInput();
+	var level = ship.GetLevel(PLAYER_SHIP);
+	var qexp = 350 + (level * MathExt.RandRange(18, 22));
+	var qgold = 800 + (level * MathExt.RandRange(35, 40));
 
     if (state == 0)
     {
@@ -160,38 +163,39 @@ function OnDialogue()
         var destBase = generator.GetBaseByID(destinationBase);
 
         topic.AddPhrase($p0001); // Some of our equipment needs repair but we don't have enough materials and our miners are working slowly because of the pirates.
-        topic.AddPhrase("We need 150 pieces of %destDesc%. I will pay %destGold% , which is much more than you'll get in a store for that amount.", {destDesc: destinationDesc, destGold: destinationGold});
-	topic.AddPhrase($p0006); // By the way, if your cargo space is lower than 150, just transfer the ore you have into Station Storage. I can also take the ore from there. Then you can gather more.
+        topic.AddPhrase($p0002, { money: qgold }); // We need 150 pieces of glepsite ore. I will pay %money%d, which is much more than you'll get in a store for that amount.
+		topic.AddPhrase($p0006, { exp: qexp, money: qgold }); // By the way, if your cargo space is lower than 150, just drop off your ore on the station in storage. I can take the ore from there. (Exp: %exp%, money: %money%)
 
         topic.QuestStart(TOPIC_ID, $q0001, true); // Ore supply
-        topic.QuestAddLog(TOPIC_ID, "I need to get 150 pieces of %destDesc% to station %destBase% in the %destSystem% system.", {destDesc: destinationDesc, 
-		destBase: destinationBase, destSystem: destinationSystem});
-	topic.QuestAddLog(TOPIC_ID, $q0003); // If my cargo space is not large enough, I can store the ore in the station's storage bay. The station commander will take the ore from there.
+        topic.QuestAddLog(TOPIC_ID, $q0002, { station: destBase.name, system: inf.name }); // I need to get 150 pieces of glepsite ore to station %station% in the %system% system.
+		topic.QuestAddLog(TOPIC_ID, $q0003, { exp: qexp, money: qgold }); // If my cargo space is not big enough I can put the ore in the storage. The station commander will take the ore from there. (Exp: %exp%, money: %money%d)
         topic.QuestAddMark(TOPIC_ID, destinationSystem);
-        topic.QuestAddLocalMarkObject(TOPIC_ID, destinationSystem, destinationBase, destinationType, destinationDesc, destinationExp, destinationGold);
+        topic.QuestAddLocalMarkObject(TOPIC_ID, destinationSystem, destinationBase);
         topic.QuestSetCancelHandler(TOPIC_ID, "OnCancel");
 
         topic.SetState(100);
+        //}
     }
     else if (state == 100)
     {
         var npc_id = topic.GetCurrentNpcShipId();
         var currentBase = ship.GetCurrentBase(npc_id);
 
+
         if (currentBase == destinationBase)
         {
             //check if player has specified amount
-            var hasCargo = ship.HasCargoAmount(PLAYER_SHIP, destinationType, 150);
+            var hasCargo = ship.HasCargoAmount(PLAYER_SHIP, "ore_glepsite", 150);
             if (!hasCargo)
             {
-            	topic.AddPhrase("I thought we had a deal. I need no less than 150 pieces.  You can count, I assume? Come back when you've gothered enough %destDesc%.", {destDesc: destinationDesc});
-	    }
+                topic.AddPhrase($p0003); // I thought we had a deal. I need no less than 150 pieces. You can count, I assume? Come back when you gather enough glepsite.
+            }
             else
             {
                 topic.AddPhrase($p0004); // Good job! Now we can finally complete our repairs. Here is your money.
-                ship.RemoveCargoByType(PLAYER_SHIP, destinationType, 150);
+                ship.RemoveCargoByType(PLAYER_SHIP, "ore_glepsite", 150);
 
-                GQL.AddReward(PLAYER, destinationSystem, destinationBase, destinationType, destinationDesc, destinationExp, destinationGold);
+                GQL.AddReward(PLAYER, destinationSystem, qgold, qexp);
 
                 topic.SetState(0);
                 topic.QuestRemoveMarkers(TOPIC_ID);
@@ -213,10 +217,10 @@ function OnDialogue()
 
 
 /*
- =====================================================================================
- Cancel handler
- =====================================================================================
- */
+=====================================================================================
+Cancel handler
+=====================================================================================
+*/
 function OnCancel(args)
 {
     topic.SetState(0);

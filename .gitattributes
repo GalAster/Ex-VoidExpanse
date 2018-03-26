@@ -1,0 +1,6 @@
+* text=auto
+# 屏蔽素材文件
+content/* linguist-generated=true
+# make things fun, lol
+*.txt linguist-language=css
+*.xml linguist-language=html
