@@ -1,0 +1,10 @@
+﻿$p0001:             This job is simple. We have a freighter, loaded with very important cargo. You need to escort him to station %station% in the %system% system.
+$p0002:             Lead the way. The freighter will just follow you. Now go, time is precious! (Exp: %exp%, money: %money%d)
+$p0003:             You got your job. The freighter is waiting for you outside this station.
+$p0004:             You delivered the freighter in one piece! Nicely done!
+$p0005:             Here's your reward. Try not to spend everything at once, will you?
+$q0001:             Escort job
+$q0002:             I've accepted a job to escort a freighter with expensive cargo to station %station% in the %system% system. (Exp: %exp%, money: %money%d)
+$q0003:             I've successfully escorted the freighter to its destination. Now I should get back to the Station Commander and collect my reward.
+$q0004:             The freighter I was supposed to escort was destroyed. I've failed this mission.
+$i0001:             Freighter

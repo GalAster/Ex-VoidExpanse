@@ -1,0 +1,9 @@
+﻿$p0001:             Some of our equipment needs repair but we don't have enough materials and our miners are working slowly because of the pirates.
+$p0002:             We need 150 pieces of glepsite ore. I will pay %money%d, which is much more than you'll get in a store for that amount.
+$p0006:             By the way, if your cargo space is lower than 150, just drop off your ore on the station in storage. I can take the ore from there. (Exp: %exp%, money: %money%d)
+$p0003:             I thought we had a deal. I need no less than 150 pieces. You can count, I assume? Come back when you gather enough glepsite.
+$p0004:             Good job! Now we can finally complete our repairs. Here is your money.
+$p0005:             Ore? But we don't need ore right now... Maybe you got this order on another station?
+$q0001:             Ore supply
+$q0002:             I need to get 150 pieces of glepsite ore to station %station% in the %system% system.
+$q0003:             If my cargo space is not big enough I can put the ore in the storage. The station commander will take the ore from there. (Exp: %exp%, money: %money%d)

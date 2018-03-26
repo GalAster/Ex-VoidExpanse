@@ -1,0 +1,9 @@
+﻿$p0001:             Okay, listen up. A pirate lieutenant was recently spotted in this system. I bet he's doing reconnaissance. We have to act swiftly. Eliminate this pirate lieutenant and come back to me for your reward. (Опыт: %exp%, money: %money%d)
+$p0002:             Why are you still here? Don't come back until you kill the pirate. Now go!
+$p0003:             Bounty contract? Never heard of it. Maybe it was issued on another station?
+$p0004:             Well done! This filthy pirate won't bother us anymore. Here's your reward, you've earned it!
+$p0005:             Bounty contract? Never heard of it. Maybe it was issued on another station?
+$q0001:             Bounty contract
+$q0002:             I should kill the pirate lieutenant to keep him from completing his recon mission in the %system% system. (Exp: %exp%, money: %money%d)
+$q0003:             I've killed the pirate, and now I should return to the Station Commander and collect my reward.
+$i0001:             Pirate Lieutenant

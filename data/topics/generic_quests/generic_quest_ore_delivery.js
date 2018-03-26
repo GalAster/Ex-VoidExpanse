@@ -56,19 +56,19 @@ function OnDialogue()
         destinationBase = ship.GetCurrentBase(npc_id);
 // --------------------------------------------------------------------------------------------------------------------------------------
 
-	var ssendam_level = ship.GetLevel(PLAYER_SHIP);
-	var ssendam_random = MathExt.RandInt() % 100
+	var Vex_level = ship.GetLevel(PLAYER_SHIP);
+	var Vex_random = MathExt.RandInt() % 100
 
-	if (ssendam_random < 2)
+	if (Vex_random < 2)
         {
-            destinationType = "ssendam_ore_smartmetal";
+            destinationType = "Vex_ore_smartmetal";
 	    destinationDesc = "SmartMetal ore";
 	    destinationExp = 5250 + (level * 10);
 	    destinationGold = 52500 + (level * 100);
         }
         else
         {
-		if (ssendam_random < 5)
+		if (Vex_random < 5)
         	{
         	destinationType = "ore_serizonite";
         	destinationDesc = "serizonite ore";
@@ -77,34 +77,34 @@ function OnDialogue()
 		}
         	else
         	{
-			if (ssendam_random < 10)
+			if (Vex_random < 10)
         		{
-        		destinationType = "ssendam_ore_valorite";
+        		destinationType = "Vex_ore_valorite";
 			destinationDesc = "valorite ore";
 			destinationExp = 1575 + (level * 10);
 	    		destinationGold = 15750 + (level * 100);
         		}
         		else
 	        	{
-				if (ssendam_random < 15)
+				if (Vex_random < 15)
         			{
-        			destinationType = "ssendam_ore_verite";
+        			destinationType = "Vex_ore_verite";
 				destinationDesc = "verite ore";
 				destinationExp = 1050 + (level * 10);
 		    		destinationGold = 10500 + (level * 100);
         			}
         			else
 		        	{
-					if (ssendam_random < 20)
+					if (Vex_random < 20)
         				{
-        				destinationType = "ssendam_ore_agapite";
+        				destinationType = "Vex_ore_agapite";
 					destinationDesc = "agapite ore";
 					destinationExp = 658 + (level * 10);
 			    		destinationGold = 6575 + (level * 100);
         				}
         				else
 			        	{
-						if (ssendam_random < 25)
+						if (Vex_random < 25)
         					{
         					destinationType = "ore_seralucite";
 						destinationDesc = "seralucite ore";
@@ -113,7 +113,7 @@ function OnDialogue()
         					}
         					else
 			        		{
-							if (ssendam_random < 30)
+							if (Vex_random < 30)
         						{
         						destinationType = "ore_mangkolite";
 							destinationDesc = "mangkolite ore";
@@ -122,7 +122,7 @@ function OnDialogue()
         						}
         						else
 				        		{
-								if (ssendam_random < 40)
+								if (Vex_random < 40)
         							{
         							destinationType = "ore_fraclasite";
 								destinationDesc = "fraclasite ore";
@@ -131,7 +131,7 @@ function OnDialogue()
         							}
         							else
 				        			{
-									if (ssendam_random < 50)
+									if (Vex_random < 50)
         								{
         								destinationType = "ore_cyactite";
 									destinationDesc = "cyactite ore";

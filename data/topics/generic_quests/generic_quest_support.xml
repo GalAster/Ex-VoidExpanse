@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generic_quest_support</id>
+		<title>Escort job</title>
+		<enabled>1</enabled>
+	</header>
+
+	<data>
+		<category>quests</category>
+		
+		<variables>
+			<variable>npcGaveQuest</variable>
+			<variable>destinationSystem</variable>
+			<variable>destinationBase</variable>
+			<variable>srcBase</variable>
+			<variable>srcSystem</variable>
+			<variable>traderShipId</variable>
+		</variables>
+		
+		<flags>
+		</flags>
+
+		<singleplayer>1</singleplayer>
+		<multiplayer>1</multiplayer>
+
+	</data>
+</root>

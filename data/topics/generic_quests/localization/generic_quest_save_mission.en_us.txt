@@ -1,0 +1,15 @@
+﻿$p0001:             One of our civilian transport ships was ambushed by pirates. You need to go to the crash site and look for survivors.
+$p0002:             There was a large-scale battle between our patrols and pirates not too far from here. Some of our ships were destroyed, but there may be survivors.
+$p0003:             Not so long ago our patrols destroyed a pirate ship smuggling slaves. We do not tolerate slavery, so it was... disabled. Some of the slaves were killed by pirates, but some of them could have survived this confrontation.
+$p0004:             Our scanners are picking up the life signs in the wreckage. You must go there and extract the survivors. Hurry, their life signs are getting weaker every moment.
+$p0005:             And be sure you have enough space for the survivors in your ship. (Exp: %exp%, money: %money%d)
+$p0006:             Why are you still here? Our people are dying while you are just standing there doing nothing!
+$p0007:             Rescue mission? Never heard of it. You probably took it on another station.
+$p0008:             You've saved all of them! Good job! We'll take care of them from now on.
+$p0009:             Here is your reward, hero!
+$p0010:             Bounty contract? Never heard of it. Maybe it was issued on another station?
+$q0001:             Save mission
+$q0002:             I should go to the location of the ship's wreckage in the %system% system and save survivors. (Exp: %exp%, money: %money%d)
+$q0003:             I've rescued the survivors from the wreckage, now I need to get them back to the station safely.
+$n0001:             Not enough room
+$n0002:             You need at least %survivorsQuantity% free slots in your inventory to place survivors.

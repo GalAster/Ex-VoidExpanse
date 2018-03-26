@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generic_quest_trade_supply</id>
+		<title>Supply job</title>
+		<enabled>1</enabled>
+	</header>
+
+	<data>
+		<category>quests</category>
+		
+		<variables>
+			<var>npcGaveQuest</var>
+			<var>destinationSystem</var>
+			<var>destinationBase</var>
+			<var>qResource</var>
+			<var>totalPrice</var>
+			<var>totalQuantity</var>
+		</variables>
+		
+		<flags>
+		</flags>
+
+		<singleplayer>1</singleplayer>
+		<multiplayer>1</multiplayer>
+
+	</data>
+</root>

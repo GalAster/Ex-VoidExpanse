@@ -268,63 +268,63 @@ var CSGen = {
 
 // --------------------------------------------------------------------------------------------------------------------------------------
 
-	var ssendam_random = MathExt.RandInt() % 100
+	var Vex_random = MathExt.RandInt() % 100
 
-	if (ssendam_random < 2)
+	if (Vex_random < 2)
         {
-            asteroidTypeId = "ssendam_asteroid_smartmetal";
+            asteroidTypeId = "Vex_asteroid_smartmetal";
         }
         else
         {
-		if (ssendam_random < 5)
+		if (Vex_random < 5)
         	{
-        	asteroidTypeId = "ssendam_asteroid_serizonite";
+        	asteroidTypeId = "Vex_asteroid_serizonite";
         	}
         	else
         	{
-			if (ssendam_random < 10)
+			if (Vex_random < 10)
         		{
-        		asteroidTypeId = "ssendam_asteroid_valorite";
+        		asteroidTypeId = "Vex_asteroid_valorite";
         		}
         		else
 	        	{
-				if (ssendam_random < 15)
+				if (Vex_random < 15)
         			{
-        			asteroidTypeId = "ssendam_asteroid_verite";
+        			asteroidTypeId = "Vex_asteroid_verite";
         			}
         			else
 		        	{
-					if (ssendam_random < 20)
+					if (Vex_random < 20)
         				{
-        				asteroidTypeId = "ssendam_asteroid_agapite";
+        				asteroidTypeId = "Vex_asteroid_agapite";
         				}
         				else
 			        	{
-						if (ssendam_random < 25)
+						if (Vex_random < 25)
         					{
-        					asteroidTypeId = "ssendam_asteroid_seralucite";
+        					asteroidTypeId = "Vex_asteroid_seralucite";
         					}
         					else
 			        		{
-							if (ssendam_random < 30)
+							if (Vex_random < 30)
         						{
-        						asteroidTypeId = "ssendam_asteroid_mangkolite";
+        						asteroidTypeId = "Vex_asteroid_mangkolite";
         						}
         						else
 				        		{
-								if (ssendam_random < 40)
+								if (Vex_random < 40)
         							{
-        							asteroidTypeId = "ssendam_asteroid_fraclasite";
+        							asteroidTypeId = "Vex_asteroid_fraclasite";
         							}
         							else
 				        			{
-									if (ssendam_random < 50)
+									if (Vex_random < 50)
         								{
-        								asteroidTypeId = "ssendam_asteroid_cyactite";
+        								asteroidTypeId = "Vex_asteroid_cyactite";
         								}
         								else
 					        			{
-									asteroidTypeId = "ssendam_asteroid_glepsite";
+									asteroidTypeId = "Vex_asteroid_glepsite";
 			        					}
 			        				}
 		        				}
@@ -411,63 +411,63 @@ var CSGen = {
 
 // --------------------------------------------------------------------------------------------------------------------------------------
 
-	var ssendam_random = MathExt.RandInt() % 100
+	var Vex_random = MathExt.RandInt() % 100
 
-	if (ssendam_random < 2)
+	if (Vex_random < 2)
         {
-            asteroidTypeId = "ssendam_asteroid_smartmetal";
+            asteroidTypeId = "Vex_asteroid_smartmetal";
         }
         else
         {
-		if (ssendam_random < 5)
+		if (Vex_random < 5)
         	{
-        	asteroidTypeId = "ssendam_asteroid_serizonite";
+        	asteroidTypeId = "Vex_asteroid_serizonite";
         	}
         	else
         	{
-			if (ssendam_random < 10)
+			if (Vex_random < 10)
         		{
-        		asteroidTypeId = "ssendam_asteroid_valorite";
+        		asteroidTypeId = "Vex_asteroid_valorite";
         		}
         		else
 	        	{
-				if (ssendam_random < 15)
+				if (Vex_random < 15)
         			{
-        			asteroidTypeId = "ssendam_asteroid_verite";
+        			asteroidTypeId = "Vex_asteroid_verite";
         			}
         			else
 		        	{
-					if (ssendam_random < 20)
+					if (Vex_random < 20)
         				{
-        				asteroidTypeId = "ssendam_asteroid_agapite";
+        				asteroidTypeId = "Vex_asteroid_agapite";
         				}
         				else
 			        	{
-						if (ssendam_random < 25)
+						if (Vex_random < 25)
         					{
-        					asteroidTypeId = "ssendam_asteroid_seralucite";
+        					asteroidTypeId = "Vex_asteroid_seralucite";
         					}
         					else
 			        		{
-							if (ssendam_random < 30)
+							if (Vex_random < 30)
         						{
-        						asteroidTypeId = "ssendam_asteroid_mangkolite";
+        						asteroidTypeId = "Vex_asteroid_mangkolite";
         						}
         						else
 				        		{
-								if (ssendam_random < 40)
+								if (Vex_random < 40)
         							{
-        							asteroidTypeId = "ssendam_asteroid_fraclasite";
+        							asteroidTypeId = "Vex_asteroid_fraclasite";
         							}
         							else
 				        			{
-									if (ssendam_random < 50)
+									if (Vex_random < 50)
         								{
-        								asteroidTypeId = "ssendam_asteroid_cyactite";
+        								asteroidTypeId = "Vex_asteroid_cyactite";
         								}
         								else
 					        			{
-									asteroidTypeId = "ssendam_asteroid_glepsite";
+									asteroidTypeId = "Vex_asteroid_glepsite";
 			        					}
 			        				}
 		        				}
@@ -544,63 +544,63 @@ var CSGen = {
             {
 		// --------------------------------------------------------------------------------------------------------------------------------------
 
-	var ssendam_random = MathExt.RandInt() % 100
+	var Vex_random = MathExt.RandInt() % 100
 
-	if (ssendam_random < 2)
+	if (Vex_random < 2)
         {
-            asteroidTypeId = "ssendam_asteroid_smartmetal";
+            asteroidTypeId = "Vex_asteroid_smartmetal";
         }
         else
         {
-		if (ssendam_random < 5)
+		if (Vex_random < 5)
         	{
-        	asteroidTypeId = "ssendam_asteroid_serizonite";
+        	asteroidTypeId = "Vex_asteroid_serizonite";
         	}
         	else
         	{
-			if (ssendam_random < 10)
+			if (Vex_random < 10)
         		{
-        		asteroidTypeId = "ssendam_asteroid_valorite";
+        		asteroidTypeId = "Vex_asteroid_valorite";
         		}
         		else
 	        	{
-				if (ssendam_random < 15)
+				if (Vex_random < 15)
         			{
-        			asteroidTypeId = "ssendam_asteroid_verite";
+        			asteroidTypeId = "Vex_asteroid_verite";
         			}
         			else
 		        	{
-					if (ssendam_random < 20)
+					if (Vex_random < 20)
         				{
-        				asteroidTypeId = "ssendam_asteroid_agapite";
+        				asteroidTypeId = "Vex_asteroid_agapite";
         				}
         				else
 			        	{
-						if (ssendam_random < 25)
+						if (Vex_random < 25)
         					{
-        					asteroidTypeId = "ssendam_asteroid_seralucite";
+        					asteroidTypeId = "Vex_asteroid_seralucite";
         					}
         					else
 			        		{
-							if (ssendam_random < 30)
+							if (Vex_random < 30)
         						{
-        						asteroidTypeId = "ssendam_asteroid_mangkolite";
+        						asteroidTypeId = "Vex_asteroid_mangkolite";
         						}
         						else
 				        		{
-								if (ssendam_random < 40)
+								if (Vex_random < 40)
         							{
-        							asteroidTypeId = "ssendam_asteroid_fraclasite";
+        							asteroidTypeId = "Vex_asteroid_fraclasite";
         							}
         							else
 				        			{
-									if (ssendam_random < 50)
+									if (Vex_random < 50)
         								{
-        								asteroidTypeId = "ssendam_asteroid_cyactite";
+        								asteroidTypeId = "Vex_asteroid_cyactite";
         								}
         								else
 					        			{
-									asteroidTypeId = "ssendam_asteroid_glepsite";
+									asteroidTypeId = "Vex_asteroid_glepsite";
 			        					}
 			        				}
 		        				}

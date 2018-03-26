@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<header>
-		<id>ssendam_asteroid_agapite</id>
+		<id>Vex_asteroid_agapite</id>
 		<title>Agapite asteroid</title>
 		<enabled>1</enabled>
 	</header>
@@ -34,7 +34,7 @@
 		<difficulty>1250</difficulty>
 		<contents>
 			<resource>
-				<id>ssendam_ore_agapite</id>
+				<id>Vex_ore_agapite</id>
 				<quantity>250;500</quantity>
 				<extraction>8</extraction>
 			</resource>

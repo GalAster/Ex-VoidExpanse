@@ -1,0 +1,11 @@
+﻿$p0001:             I just received an order from station %station% in the %system% system. They urgently need %resource%, a lot of it actually - about %quantity% units.
+$p0002:             You need to acquire these goods by yourself and then deliver them to the destination. When you arrive, talk to the Station Commander. You'll get double price for this deal, total %price%d. Now go, don't make them wait! (Exp: %exp%, money: %price%d)
+$p0003:             I already gave you a job. Now go and do what you have to do.
+$p0004:             Hmmm... I'm not expecting a supply... Let me take a look at your contract.
+$p0005:             Right, it's not for me. The label on this package clearly says: %station% in %system%. You should go there instead of bothering me.
+$p0006:             Wrong station, my friend. Your package is expected on %station%.
+$p0007:             You've done it! You're our savior! Thank you.
+$p0008:             Here's your reward - much more then you'd get from a store. And my eternal gratitude, of course.
+$p0009:             You don't have enough of %resource%. I need no less then %quantity%. Come back when you have more.
+$q0001:             Supply goods
+$q0002:             I need to deliver %quantity% units of %resource% to station %station% in the %system% system. (Exp: %exp%, money: %price%d)

@@ -8,7 +8,7 @@ function GetLevelExp(args)
         return 0;
     }
 
-    return 750 * (args.level - 1) + Math.pow(args.level, 3);
+    return 625 + 125 args.level + 25 Math.pow(args.level, 2) + Math.pow(args.level, 3);
 }
 
 
@@ -17,5 +17,5 @@ function GetLevelExp(args)
 //		level
 function CalculateSkillPointsForLevel(args)
 {
-    return 10 * 5 * (args.level - 1);
+    return 25 (args.level - 1);
 }

@@ -14,13 +14,13 @@
 
 	<data>
 
-		<cost>20</cost>
+		<cost>75</cost>
 		<page>1</page>
 		<max_level>1</max_level>
 		<important>1</important>
 
 		<requirements>
-			<level>45</level>
+			<level>20</level>
 			<skill_id>light_cruisers</skill_id>
 			<skill_level>1</skill_level>
 		</requirements>

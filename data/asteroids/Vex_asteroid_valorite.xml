@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<header>
-		<id>ssendam_asteroid_valorite</id>
+		<id>Vex_asteroid_valorite</id>
 		<title>Valorite asteroid</title>
 		<enabled>1</enabled>
 	</header>
@@ -34,7 +34,7 @@
 		<difficulty>1500</difficulty>
 		<contents>
 			<resource>
-				<id>ssendam_ore_valorite</id>
+				<id>Vex_ore_valorite</id>
 				<quantity>100;250</quantity>
 				<extraction>4</extraction>
 			</resource>
