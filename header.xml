@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<game>VoidExpanse</game>
+	<id>VoidEX</id>
+	<title>Ex-Void Expanse</title>
+	<author>GalAster</author>
+	<description>Fun and games for all the family</description>
+	<version>0.1.0</version>
+	<updated>03.24.2018</updated>
+	<modtype>2</modtype> <!-- 1 - server, 2 - client-server, 3 - client -->
+</root>
